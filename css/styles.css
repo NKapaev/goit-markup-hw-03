@@ -1,0 +1,143 @@
+:root {
+  --main-text-color: #757575;
+  --black-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --gray-bgc: #f5f4fa;
+  --dark-bgc: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+address {
+  font-style: normal;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.menu-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black-text-color);
+}
+.list {
+  list-style: none;
+}
+.filter {
+  list-style: none;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.current {
+  color: var(--accent-color);
+}
+button {
+  cursor: pointer;
+  background-color: var(--gray-bgc);
+  color: var(--black-text-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--black-text-color);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--white-text-color);
+}
+.hero-section {
+  background-color: var(--dark-bgc);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--black-text-color);
+}
+.team {
+  text-align: center;
+  background-color: var(--gray-bgc);
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  color: var(--black-text-color);
+}
+.footer {
+  background-color: var(--dark-bgc);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text-color);
+} 
+.map{
+  color: var(--white-text-color);
+}
+.filter-name{
+  color: var(--main-text-color);
+}
