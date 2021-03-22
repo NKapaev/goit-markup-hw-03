@@ -17,6 +17,11 @@ body {
 address {
   font-style: normal;
 }
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -45,6 +50,7 @@ address {
 }
 .list {
   list-style: none;
+  padding-left: 0px;
 }
 .filter {
   list-style: none;
@@ -63,6 +69,15 @@ button {
   color: var(--black-text-color);
 }
 
+.container{
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -79,6 +94,7 @@ button {
 }
 .hero-section {
   background-color: var(--dark-bgc);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
