@@ -239,7 +239,7 @@ button {
   display: flex;
 }
 .about-item {
-  width: calc(100% / 3 - 60);
+  width: calc(100% / 3 - 60px);
 }
 .about-item:not(:last-child) {
   margin-right: 30px;
