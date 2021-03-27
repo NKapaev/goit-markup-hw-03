@@ -294,7 +294,7 @@ p {
   padding-bottom: 60px;
 }
 
-.address-item {
+.address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer .logo {
